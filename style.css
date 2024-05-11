@@ -1,0 +1,30 @@
+:root {
+  --header-foreground-color: #15171A;
+  --header-background-color: #ffffff;
+  --header-translucent-color: #ffffff80;
+
+  --accent: #E04F1B;
+  --background: #F1F2ED;
+  --body: #3A424E;
+  --border: #DFE0DB;
+  --featured: #FFFFFF;
+  --card: #FFFFFF;
+  --foreground: #15171A;
+  --light-text: #575655;
+  --text-on-accent: #FFFFFF;
+  --highlighted: #FEE440;
+  --focus: #90CDF4;
+  --success: #1B8542;
+  --error: #B91C1C;
+  --translucent: rgba(241, 242, 237, 0.5);
+}
+
+.bo-home-header {
+  height: 100vh;
+  color: var(--header-foreground-color);
+  background-color: var(--header-background-color);
+}
+
+body {
+  margin: 0;
+}
